@@ -1,10 +1,17 @@
 Package: SRItest
-Title: What the Package Does (one line, title case)
+Title: Social Research Institute R Package Test
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: person("Kristen", "West", email = "kmwest17@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Kristen West <kristen.west@utah.edu>
+Description: Test. An assortment of custom themes and colors for the most excellent research team at SRI
 Depends: R (>= 3.2.3)
-License: What license is it under?
+Imports: ggplot2
+Suggests: ggthemes, RColorBrewer, colorspace
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Collate: 
+    'theme_sri.R'
+    'sri_palette.R'
